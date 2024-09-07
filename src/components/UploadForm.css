@@ -1,0 +1,71 @@
+.uploadFormContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 50px auto;
+}
+
+.uploadFormContainer h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+}
+
+.uploadFormContainer form {
+  width: 100%;
+}
+
+.uploadFormContainer label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #555;
+}
+
+.uploadFormContainer input[type="file"],
+.uploadFormContainer input[type="text"],
+.uploadFormContainer select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.uploadFormContainer button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ffc0cb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.uploadFormContainer button:hover {
+  background-color: #ffc0ff;
+}
+
+.uploadFormContainer input[type="file"]::file-selector-button {
+  margin-right: 10px;
+  padding: 10px;
+  background-color: #ffc0cb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.uploadFormContainer input[type="file"]::file-selector-button:hover {
+  background-color: #ff1493;
+}
